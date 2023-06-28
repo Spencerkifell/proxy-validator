@@ -4,6 +4,7 @@ import click
 import os
 from datetime import datetime
 from time import sleep
+import pdb
 
 def read_file(file_name: str, regex_pattern: str = r"\b(?:\d{1,3}\.){3}\d{1,3}:\d{1,5}\b") -> list:
     try:
